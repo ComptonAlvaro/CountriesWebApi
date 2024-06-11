@@ -1,0 +1,5 @@
+﻿Aquí se definen las excepciones propias del repositorio a las que cualquier implementación del repositio tendrán que convertir
+las excepciones particulares de cada implementación. De este modo se unifican las excepciones y quien utilice el repositorio no se
+verá afectado por las diferentes implmentaciones.
+
+Se definen a este nivel porque muchas excepciones serán comunes tanto para el modelo de comandos como de consultas.

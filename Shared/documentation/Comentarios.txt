@@ -1,0 +1,10 @@
+﻿En el proyecto Shared se definen los elementos comunes que se utilizarán por los diferentes proyectos, sirviendo como nexo de
+comunicación entre ellos.
+
+Se definen clases de intercambio de datos, clases DTO, para unificar tipos.
+
+Se definen interfaces para abstraer las implementaciones y disminuir el acomplamiento.
+
+Dado que se definen interfaces para abstraer las implementaciones, se definen excepciones para unificarlas, de modo que independientemente
+de la implementación utilizada, quien utilice el interfaz no se verá afectado. Esto es porque diferentes implementaciones recibirán
+diferentes excepciones dependiendo de la implementación y recursos utilizados.

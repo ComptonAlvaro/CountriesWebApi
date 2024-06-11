@@ -1,0 +1,4 @@
+﻿En la ifraestructura se tiene todos los recursos que proporcionan servicos para que la capa de aplicación pueda realizar su trabajo.
+
+Es aquí donde se implementa el repositorio, el solicitante de países y cualquier otro recurso que no sea propio de la capa de aplicación
+pero que sea necesario por ésta.

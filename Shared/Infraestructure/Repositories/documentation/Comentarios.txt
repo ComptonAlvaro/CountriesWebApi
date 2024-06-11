@@ -1,0 +1,9 @@
+﻿En el repositorio se utiliza el patron CQRS, el cual separa el modelo de comandos, el que realiza modificaciones en la base de datos
+agregando, actualizando o borrando registros, del modelo de consultas.
+
+Esto permite separar conceptos y simplificar conceptos, ya que el modelo que se utiliza para los comandos no suele adaptarse bien
+a las necesidades del cliente, por lo que el modelo de consultas se diseña más pensando en las necesidades del cliente.
+
+Además, el modelo de comandos es más restritivo en cuanto a acceso a la información, para asegurarse que la información es coherente,
+mientras que el modelo de consultas permite acceder a cualquier tipo de información directamente, permitiendo mejorar el rendimiento
+de las consultas.
